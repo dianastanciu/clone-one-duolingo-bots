@@ -1,0 +1,224 @@
+//************************** HEADER START **************************//
+@media screen and (max-width: 495px) {//move download app store button
+    .header {
+        height: 600px;
+        .navcontainer {
+            .textcontainer {
+                top: 35%;
+                h1 {font-size: 2em;}
+                h3 {font-size : 1em;}
+            }
+            .imagecontainer {width: 60%;}
+            .navbar {
+                align-items: center;
+                flex-direction: column;
+
+                .download { margin-top: 70px; }
+            }
+        }
+    }
+}
+@media screen and (min-width: 496px) and (max-width: 563px) {
+    .header {
+        height: 600px;
+        .navcontainer {
+            .textcontainer {
+                top: 25%;
+                h1 {font-size: 2.5em;}
+                h3 {font-size : 1.2em;}
+            }
+            .imagecontainer {width: 70%;}
+        }
+    }
+}
+@media screen and (min-width: 564px) and (max-width: 955px) {
+    .header {
+        .navcontainer {
+            .textcontainer {
+                top: 26%;
+                h1 {font-size: 2.5em;}
+                h3 {font-size : 1.3em;}
+            }
+            .imagecontainer {width: 60%;}
+        }
+    }
+}
+//************************** HEADER END **************************//
+
+//************************** TWO COLUMN START **************************//
+@media screen and (max-width: 319px) {
+    .text-image-container{
+        height: auto;
+        flex-direction: column;
+        width: 100%; margin: 0 ;
+
+        .text {
+            h2 {
+                width: 100%;
+            }
+            p{
+                width: 100%;
+            }
+        }
+
+        .image {
+            align-self: center;
+            margin-top: 40px;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .ai {
+            order: 2;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 563px) {
+    .text-image-container{
+        height: auto;
+        flex-direction: column;
+        width: 100%; margin: 0 ;
+
+        .text {
+            h2 {
+                width: 100%;
+            }
+            p{
+                width: 100%;
+            }
+        }
+
+        .image {
+            align-self: center;
+            margin-top: 40px;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .ai {
+            order: 2;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
+@media screen and (min-width: 564px) and (max-width: 955px) {
+    .text-image-container{
+        height: auto;
+        flex-direction: column;
+
+        .image {
+            align-self: center;
+            margin-top: 40px;
+        }
+
+        .ai {order: 2;}
+    }
+}
+@media screen and (min-width: 956px) and (max-width: 1111px) {
+    .text-image-container{
+        width: 90%; margin: 0 10%;
+    }
+}
+//************************** TWO COLUMN END **************************//
+
+//************************** TUTORS START **************************//
+@media screen and (max-width: 563px){
+    .tutors-full {
+        height: 720px;
+        padding: 0 4%;
+
+        .container {
+            width: 100%;
+            margin: 0;
+
+            .top {
+                .title {
+                    text-align: center;
+                }
+            }
+            .bottom {
+                .descrip {
+                    margin-top: 25px;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 564px) and (max-width: 955px){
+    .tutors-full {
+        height: 720px;
+
+        .container {
+            .top {
+                .title {
+                    text-align: center;
+                }
+            }
+            .bottom {
+                .descrip {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 956px) and (max-width: 1111px) {
+    .tutors-full {
+        height: 720px;
+
+        .container {
+            .bottom {
+                .descrip {
+                    margin-top: -70px;
+                }
+            }
+        }
+    }
+}
+//************************** TUTORS END **************************//
+
+//************************** FOOTER START **************************//
+@media screen and (max-width: 462px) {
+    .footer {
+        .container {
+            .top p {
+                width: 80%;
+            }
+            .bottom {
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+
+                a {
+                    line-height: 35px;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 463px) and (max-width: 756px) {
+    .footer {
+        .container {
+            .bottom {width: 100%;}
+        }
+    }
+}
+@media screen and (min-width: 757px) and (max-width: 955px) {
+    .footer {
+        .container {
+            width: 100%; margin: 0;
+        }
+    }
+}
+//************************** FOOTER END **************************//

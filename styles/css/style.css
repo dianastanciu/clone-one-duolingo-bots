@@ -267,6 +267,9 @@ a {
         .footer .container .bottom a:hover {
           text-decoration: underline; }
 
+/*i know the import statement should be placed at the beginning of the scss 
+file, but for whatever reason it is not working on my OS, so I will leave
+it here for the time being*/
 @media screen and (max-width: 495px) {
   .header {
     height: 600px; }
